@@ -1,0 +1,114 @@
+
+.entete{
+    border: 2px;
+    height: 220px;
+    padding: 15px;
+    background-color: lightgrey;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.logo{
+    float: left;
+
+}
+
+.logo1{
+    float: right;
+    padding-left: 30px;
+}
+
+
+.tab1{
+
+    border-top: 2px solid black;
+    width: 100%;
+
+    
+}
+
+span{
+    margin-left: 297px;
+}
+
+
+
+.presentation{
+    float: right;
+}
+
+
+.section{
+    width: 790px;
+    height: 285px;
+    border: 3px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+
+.color{ 
+    background-color: lightgrey;
+
+ }
+
+
+.tableau{
+    width: 673px;
+    display: block;
+}
+
+
+table.tab2{
+    float: right;
+    border: 0px;
+    margin: 0px;
+    border-spacing: 0;
+    text-align: right;
+    margin-right: 0px;
+    padding: 0px;
+
+}
+
+
+table .tab2 input {
+    border-style: hidden;
+    border-bottom: 1px solid black;
+    float: right;
+    text-align: right;
+    width: 95%;
+
+}
+
+table .tab3 input{
+    border-style: hidden;
+    float: right;
+    text-align: right;
+    background-color: transparent;
+    margin-right: 1px;
+
+}
+
+table.solde{
+    float: right;
+    font-size: 18px;
+    background-color: #D9DFDE;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+td.n°{
+    border-bottom: 1px solid;
+}
+
+
+div.button
+{
+    float: left;
+    width:100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 50px;
+
+}
