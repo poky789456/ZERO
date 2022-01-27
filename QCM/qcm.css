@@ -1,0 +1,18 @@
+.lycee {
+	height: 50px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	color: darkred;
+}
+.valider {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+ul{
+	position: relative;
+	right: 20px;
+}
