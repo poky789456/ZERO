@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="qcm.js"></script>
+	<link rel="stylesheet" type="text/css" href="qcm.css">
+	<title>QCM</title>
+</head>
+<body>
+	 <div class="lycee">
+		<p>Lycée Parc de Vilgénis BTS SIO</p>
+	</div>
+	<center><h1>Il y a 5 questions, si ton score est de 5 points, tu as réussi le quiz.</h1></center>
+
+	
+	<form name="quiz">
+
+		<div>
+		<strong><p>Question 1 :</p></strong>
+		<p>D'où vient le lait ?</p>	
+		<ul>
+		<li><p><input type="radio" name="q1">Le cochon</p></li>
+		<li><p><input type="radio" name="q1" id="correct1">La vache</p></li>
+		<li><p><input type="radio" name="q1">L'Homme</p></li>
+		<li><p><input type="radio" name="q1">Dieu</p></li>
+			<strong><p id="result1"></p></strong>
+		</ul>
+		</div>
+		
+		<strong><p>Question 2 :</p></strong>
+		<p>En quel année est sorti le tout premier film ?</p>
+		<ul>	
+			<li><p><input type="radio" name="q2">1890</p></li>
+			<li><p><input type="radio" name="q2">1885</p></li>
+			<li><p><input type="radio" name="q2">1887</p></li>
+			<li><p><input type="radio" name="q2"id="correct2">1888</p></li>
+			<strong><p id="result2"></p></strong>
+		</ul>
+		
+		
+		<strong><p>Question 3 :</p></strong>
+		<p>Mon papa va-t-il revenir ?</p>
+		<ul>	
+				<li><p><input type="radio" name="q3">Oui</p></li>
+			<li><p><input type="radio" name="q3" id="correct3">Non</p></li>
+			<li><p><input type="radio" name="q3">Peut-être</p></li>
+			<li><p><input type="radio" name="q3">Je ne sais pas quoi répondre</p></li>
+			<strong><p id="result3"></p></strong>
+		</ul>
+		<div>
+		<strong><p>Question 4 :</p></strong>
+		<p>Lequel est personnage fictif?</p>	
+
+		<ul>
+			<li><p><input type="radio" name="q4">Éric Zemmour (haha humour)</p></li>
+			<li><p><input type="radio" name="q4">Barack Obama</p></li>
+			<li><p><input type="radio" name="q4" id="correct4">Arthur Morgan</p></li>
+			<li><p><input type="radio" name="q4">Martine Jalaguier</p></li>
+			<strong><p id="result4"></p></strong>
+		</ul>	
+		
+		
+		<strong><p>Question 5 :</p></strong>
+		<p>De quel couleur est un poisson rouge ?</p>
+
+		<ul>
+			<li><p><input type="radio" name="q5" id="correct5">Il existe de nombreuses variétés de couleurs</p></li>	
+			<li><p><input type="radio" name="q5">Orange</p></li>
+			<li><p><input type="radio" name="q5">Rouge</p></li>
+			<li><p><input type="radio" name="q5">Orange et blanc</p></li>
+			<strong><p id="result5"></p></strong>
+		
+		</ul>
+		<div class="valider">
+
+			<input type="button" name="" value="Valider" onclick="verif()">
+		</div>
+	</form>
+		
+
+	<p id="result"></p>
+	
+
+	
+</body>
+</html>
